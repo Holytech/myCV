@@ -1,0 +1,104 @@
+:root{
+    --normal: 23px;
+    --grey: rgb(141, 138, 148);
+}
+.main-content{
+    display: flex;
+    padding-top: 70px;
+}
+
+.left-content{
+    width: 55%;
+    margin-left: 8%;
+    align-items: left;
+}
+
+.right-content{
+    width: 25%;
+    margin-left: 7%;
+    align-items: right;
+}
+
+.bio h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+.bio p{
+    font-size: var(--normal);
+    line-height: 28px;
+    text-align: justify;
+}
+
+.section{
+    color: rgb(0, 120, 200);
+    margin-top: 70px;
+}
+
+.exp .org, .edu .org, .pro .det{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.exp .date, .edu .date{
+    margin: 0;
+    font-size: var(--normal);
+    color: var(--grey);
+}
+
+.exp .role{
+    font-size: var(--normal);
+    color: var(--grey);
+}
+
+.edu .course{
+    margin: 0;
+    font-style: italic;
+    font-size: var(--normal);
+    color: var(--grey);
+}
+
+.pro a{
+    font-size: var(--normal);
+}
+
+.contact p{
+    font-size: var(--normal);
+}
+
+.contact .tel, .contact .link{
+    margin: 0;
+    font-weight: bold;
+}
+
+.list li{
+    font-size: var(--normal);
+    color: var(--grey);
+    line-height: 35px;
+}
+
+.skills li{
+    list-style-type: disc;
+}
+
+.hobbies li{
+    list-style-type: square;
+}
+
+.lang li{
+    list-style-type: circle;
+}
+
+.ref{
+    margin-top: 40px;
+}
+
+.ref p{
+    font-size: var(--normal);
+    color: var(--grey);
+    margin: 0;
+}
+
+.right-content .section{
+    margin-top: 100px;
+}
