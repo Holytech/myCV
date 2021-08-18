@@ -1,104 +1,117 @@
-:root{
-    --normal: 23px;
-    --grey: rgb(141, 138, 148);
+:root {
+	--normal: 23px;
+	--grey: rgb(141, 138, 148);
 }
-.main-content{
-    display: flex;
-    padding-top: 70px;
-}
-
-.left-content{
-    width: 55%;
-    margin-left: 8%;
-    align-items: left;
+.main-content {
+	display: flex;
+	padding-top: 70px;
 }
 
-.right-content{
-    width: 25%;
-    margin-left: 7%;
-    align-items: right;
+.left-content {
+	width: 55%;
+	margin-left: 8%;
+	align-items: left;
 }
 
-.bio h1{
-    font-size: 90px;
-    margin: 0;
+.right-content {
+	width: 25%;
+	margin-left: 7%;
+	align-items: right;
 }
 
-.bio p{
-    font-size: var(--normal);
-    line-height: 28px;
-    text-align: justify;
+.bio h1 {
+	font-size: 90px;
+	margin: 0;
 }
 
-.section{
-    color: rgb(0, 120, 200);
-    margin-top: 70px;
+.bio p {
+	font-size: var(--normal);
+	line-height: 28px;
+	text-align: justify;
 }
 
-.exp .org, .edu .org, .pro .det{
-    font-size: 30px;
-    margin-bottom: 20px;
+.section {
+	color: rgb(0, 120, 200);
+	margin-top: 70px;
 }
 
-.exp .date, .edu .date{
-    margin: 0;
-    font-size: var(--normal);
-    color: var(--grey);
+.exp .org,
+.edu .org,
+.pro .det {
+	font-size: 30px;
+	margin-bottom: 20px;
 }
 
-.exp .role{
-    font-size: var(--normal);
-    color: var(--grey);
+.exp .org img {
+	height: 30px;
 }
 
-.edu .course{
-    margin: 0;
-    font-style: italic;
-    font-size: var(--normal);
-    color: var(--grey);
+.exp .org a {
+	text-decoration: none;
+	color: black;
 }
 
-.pro a{
-    font-size: var(--normal);
+.exp .date,
+.edu .date {
+	margin: 0;
+	font-size: var(--normal);
+	color: var(--grey);
 }
 
-.contact p{
-    font-size: var(--normal);
+.exp .role {
+	font-size: var(--normal);
+	color: var(--grey);
 }
 
-.contact .tel, .contact .link{
-    margin: 0;
-    font-weight: bold;
+.edu .course {
+	margin: 0;
+	font-style: italic;
+	font-size: var(--normal);
+	color: var(--grey);
 }
 
-.list li{
-    font-size: var(--normal);
-    color: var(--grey);
-    line-height: 35px;
+.pro a {
+	font-size: var(--normal);
 }
 
-.skills li{
-    list-style-type: disc;
+.contact p {
+	font-size: var(--normal);
 }
 
-.hobbies li{
-    list-style-type: square;
+.contact .tel,
+.contact .link {
+	margin: 0;
+	font-weight: bold;
 }
 
-.lang li{
-    list-style-type: circle;
+.list li {
+	font-size: var(--normal);
+	color: var(--grey);
+	line-height: 35px;
 }
 
-.ref{
-    margin-top: 40px;
+.skills li {
+	list-style-type: disc;
 }
 
-.ref p{
-    font-size: var(--normal);
-    color: var(--grey);
-    margin: 0;
+.hobbies li {
+	list-style-type: square;
 }
 
-.right-content .section{
-    margin-top: 100px;
+.lang li {
+	list-style-type: circle;
+}
+
+.ref {
+	margin-top: 40px;
+}
+
+.ref p {
+	font-size: var(--normal);
+	color: var(--grey);
+	margin: 0;
+}
+
+.right-content .section {
+	margin-top: 100px;
 }
